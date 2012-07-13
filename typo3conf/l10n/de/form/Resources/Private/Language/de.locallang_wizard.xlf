@@ -1,0 +1,624 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xliff version="1.0">
+  <file source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:33Z" product-name="form" target-language="de">
+    <header/>
+    <body>
+      <trans-unit id="title" xml:space="preserve" approved="yes">
+        <source>Form Wizard</source>
+      <target state="translated">Formular-Assistent</target><alt-trans xml:space="preserve" origin="dschumbi"><target>Formular-Assistent</target></alt-trans></trans-unit>
+      <trans-unit id="yes" xml:space="preserve" approved="yes">
+        <source>Yes</source>
+      <target state="translated">Ja</target><alt-trans xml:space="preserve" origin="dschumbi"><target>Ja</target></alt-trans></trans-unit>
+      <trans-unit id="no" xml:space="preserve" approved="yes">
+        <source>No</source>
+      <target state="translated">Nein</target><alt-trans xml:space="preserve" origin="dschumbi"><target>Nein</target></alt-trans></trans-unit>
+      <trans-unit id="refresh" xml:space="preserve" approved="yes">
+        <source>Refresh without saving</source>
+      <target state="translated">Aktualisieren ohne zu speichern</target><alt-trans xml:space="preserve" origin="dschumbi"><target>Aktualisieren ohne Speichern</target></alt-trans></trans-unit>
+      <trans-unit id="errorTitle" xml:space="preserve" approved="yes">
+        <source>Wizard error</source>
+      <target state="translated">Fehler im Assistenten</target><alt-trans xml:space="preserve" origin="hugoist"><target>Fehler beim Assistenten</target></alt-trans></trans-unit>
+      <trans-unit id="errorMessage" xml:space="preserve" approved="yes">
+        <source>No reference to record</source>
+      <target state="translated">Keine Referenz auf den Datensatz</target><alt-trans xml:space="preserve" origin="jansch"><target>Keine Referenz auf den Datensatz</target></alt-trans><alt-trans xml:space="preserve" origin="tkilla"><target>kein Referenzeintrag</target></alt-trans><alt-trans xml:space="preserve" origin="meincms"><target>Kein Referenzbezug zum Datensatz</target></alt-trans></trans-unit>
+      <trans-unit id="save" xml:space="preserve" approved="yes">
+        <source>Save form</source>
+      <target state="translated">Formular speichern</target><alt-trans xml:space="preserve" origin="hugoist"><target>Formular speichern</target></alt-trans></trans-unit>
+      <trans-unit id="saveAndClose" xml:space="preserve" approved="yes">
+        <source>Save and close form</source>
+      <target state="translated">Formular speichern und schließen</target><alt-trans xml:space="preserve" origin="hugoist"><target>Formular speichern und beenden</target></alt-trans></trans-unit>
+      <trans-unit id="history_undo" xml:space="preserve" approved="yes">
+        <source>Undo</source>
+      <target state="translated">Rückgängig machen</target><alt-trans xml:space="preserve" origin="thomasjbj"><target>Rückgängig</target></alt-trans><alt-trans xml:space="preserve" origin="hugoist"><target>Rückganing</target></alt-trans></trans-unit>
+      <trans-unit id="history_redo" xml:space="preserve" approved="yes">
+        <source>Redo</source>
+      <target state="translated">Wiederherstellen</target><alt-trans xml:space="preserve" origin="hugoist"><target>Wiederholen</target></alt-trans><note from="translator">Wiederholen wäre auch möglich, wiederherstellen passt aber imho besser, weil es nur darum geht ein Undo zurückzurufen</note></trans-unit>
+      <trans-unit id="action_save" xml:space="preserve" approved="yes">
+        <source>Saving form</source>
+      <target state="translated">Speichere Formular</target><alt-trans xml:space="preserve" origin="hugoist"><target>Formular Speichern</target></alt-trans><alt-trans xml:space="preserve" origin="mschwemer"><target>Formular speichern</target></alt-trans></trans-unit>
+      <trans-unit id="action_save_error" xml:space="preserve" approved="yes">
+        <source>Server-side failure with status code</source>
+      <target state="translated">Serverseitiger Fehler mit Fehlercode</target><alt-trans xml:space="preserve" origin="hugoist"><target>Serverseitiger Fehler mit Fehlercode</target></alt-trans></trans-unit>
+      <trans-unit id="button_remove" xml:space="preserve" approved="yes">
+        <source>Remove</source>
+      <target state="translated">Entfernen</target><alt-trans xml:space="preserve" origin="hugoist"><target>Enfternen</target></alt-trans><alt-trans xml:space="preserve" origin="palettenmann"><target>Entfernen</target></alt-trans></trans-unit>
+      <trans-unit id="left_elements" xml:space="preserve" approved="yes">
+        <source>Elements</source>
+      <target state="translated">Elemente</target><alt-trans xml:space="preserve" origin="hugoist"><target>Elemente</target></alt-trans></trans-unit>
+      <trans-unit id="left_elements_intro_title" xml:space="preserve" approved="yes">
+        <source>Adding elements to the form</source>
+      <target state="translated">Elemente zum Formular hinzufügen</target><alt-trans xml:space="preserve" origin="hugoist"><target>Dem Formular Elemente hinzufügen</target></alt-trans></trans-unit>
+      <trans-unit id="left_elements_intro_description" xml:space="preserve" approved="yes">
+        <source>Drag or double-click elements to add</source>
+      <target state="translated">Ziehen oder Doppelklicken um Elemente hinzuzufügen</target><alt-trans xml:space="preserve" origin="hugoist"><target>Ziehen oder Doppelklicken um Elemente hinzuzufügen</target></alt-trans><alt-trans xml:space="preserve" origin="mschwemer"><target>Ziehen oder doppelklicken um Elemente hinzuzufügen</target></alt-trans></trans-unit>
+      <trans-unit id="left_elements_basic" xml:space="preserve" approved="yes">
+        <source>Basic form elements</source>
+      <target state="translated">Standard-Formularelemente</target><alt-trans xml:space="preserve" origin="hugoist"><target>Basisformularelemente</target></alt-trans><alt-trans xml:space="preserve" origin="jansch"><target>Standard-Formularelemente</target></alt-trans><alt-trans xml:space="preserve" origin="piphi"><target>Elementare Formularelemente</target></alt-trans><alt-trans xml:space="preserve" origin="palettenmann"><target>einfache Formularelemente</target></alt-trans></trans-unit>
+      <trans-unit id="basic_button" xml:space="preserve" approved="yes">
+        <source>Button</source>
+      <target state="translated">Schaltfläche</target><alt-trans xml:space="preserve" origin="hugoist"><target>Schaltfläche</target></alt-trans></trans-unit>
+      <trans-unit id="basic_checkbox" xml:space="preserve" approved="yes">
+        <source>Checkbox</source>
+      <target state="translated">Checkbox</target><alt-trans xml:space="preserve" origin="hugoist"><target>Checkbox</target></alt-trans></trans-unit>
+      <trans-unit id="basic_fieldset" xml:space="preserve" approved="no">
+        <source>Fieldset</source>
+      <target state="needs-translation">Feldgruppe</target><alt-trans xml:space="preserve" origin="jansch"><target>Feldgruppe</target></alt-trans><note from="translator">Übersetzung gefällt mir nicht, habe aber auch keinen besseren Vorschlag. (Marcus 22.02.12)</note></trans-unit>
+      <trans-unit id="basic_fileupload" xml:space="preserve" approved="yes">
+        <source>Upload Field</source>
+      <target state="translated">Hochladefeld</target><alt-trans xml:space="preserve" origin="hugoist"><target>Hochladefeld</target></alt-trans><alt-trans xml:space="preserve" origin="jansch"><target>Datei-Hochladen Feld</target></alt-trans><alt-trans xml:space="preserve" origin="meincms"><target>Datei Hochlade-Feld</target></alt-trans><alt-trans xml:space="preserve" origin="mschwemer"><target>Upload-Feld</target></alt-trans></trans-unit>
+      <trans-unit id="basic_hidden" xml:space="preserve" approved="yes">
+        <source>Hidden Field</source>
+      <target state="translated">Verstecktes Feld</target><alt-trans xml:space="preserve" origin="hugoist"><target>Verstecktes Feld</target></alt-trans></trans-unit>
+      <trans-unit id="basic_password" xml:space="preserve" approved="yes">
+        <source>Password Field</source>
+      <target state="translated">Passwortfeld</target><alt-trans xml:space="preserve" origin="hugoist"><target>Passwortfeld</target></alt-trans></trans-unit>
+      <trans-unit id="basic_radio" xml:space="preserve" approved="yes">
+        <source>Radio Button</source>
+      <target state="translated">Auswahlknopf</target><alt-trans xml:space="preserve" origin="hugoist"><target>Radio-Button</target></alt-trans></trans-unit>
+      <trans-unit id="basic_reset" xml:space="preserve" approved="yes">
+        <source>Reset Button</source>
+      <target state="translated">Zurücksetzen-Schaltfläche</target><alt-trans xml:space="preserve" origin="hugoist"><target>Resetschaltfläche</target></alt-trans><alt-trans xml:space="preserve" origin="jansch"><target>Zurücksetzen-Schaltfläche</target></alt-trans><alt-trans xml:space="preserve" origin="mschwemer"><target>Reset-Schaltfläche</target></alt-trans></trans-unit>
+      <trans-unit id="basic_select" xml:space="preserve" approved="yes">
+        <source>Drop Down</source>
+      <target state="translated">Auswahlliste</target><alt-trans xml:space="preserve" origin="hugoist"><target>Drop Down</target></alt-trans><alt-trans xml:space="preserve" origin="jansch"><target>Auswahlliste</target></alt-trans><alt-trans xml:space="preserve" origin="palettenmann"><target>Ausklappliste</target></alt-trans><alt-trans xml:space="preserve" origin="meincms"><target>Aufklappliste</target></alt-trans></trans-unit>
+      <trans-unit id="basic_submit" xml:space="preserve" approved="yes">
+        <source>Submit Button</source>
+      <target state="translated">Absenden-Schaltfläche</target><alt-trans xml:space="preserve" origin="hugoist"><target>Abschicken-Schaltfläche</target></alt-trans></trans-unit>
+      <trans-unit id="basic_textarea" xml:space="preserve" approved="yes">
+        <source>Text Area</source>
+      <target state="translated">Textbereich</target><alt-trans xml:space="preserve" origin="hugoist"><target>Textbereich</target></alt-trans><alt-trans xml:space="preserve" origin="mschwemer"><target>Mehrzeiliges Textfeld</target></alt-trans></trans-unit>
+      <trans-unit id="basic_textline" xml:space="preserve" approved="yes">
+        <source>Text Field</source>
+      <target state="translated">Textfeld</target><alt-trans xml:space="preserve" origin="hugoist"><target>Textfeld</target></alt-trans></trans-unit>
+      <trans-unit id="left_elements_content" xml:space="preserve" approved="yes">
+        <source>Content elements</source>
+      <target state="translated">Inhaltselemente</target><alt-trans xml:space="preserve" origin="hugoist"><target>Inhaltselement</target></alt-trans></trans-unit>
+      <trans-unit id="content_header" xml:space="preserve" approved="yes">
+        <source>Header</source>
+      <target state="translated">Kopfzeile</target><alt-trans xml:space="preserve" origin="hugoist"><target>Kopfzeile</target></alt-trans></trans-unit>
+      <trans-unit id="content_textblock" xml:space="preserve" approved="yes">
+        <source>Text block</source>
+      <target state="translated">Textblock</target><alt-trans xml:space="preserve" origin="hugoist"><target>Textblock</target></alt-trans></trans-unit>
+      <trans-unit id="left_elements_predefined" xml:space="preserve" approved="yes">
+        <source>Predefined form elements</source>
+      <target state="translated">Vordefinierte Formularelemente</target><alt-trans xml:space="preserve" origin="hugoist"><target>vordefinierte Formularelemente</target></alt-trans></trans-unit>
+      <trans-unit id="predefined_email" xml:space="preserve" approved="yes">
+        <source>Email</source>
+      <target state="translated">E-Mail</target><alt-trans xml:space="preserve" origin="hugoist"><target>E-Mail</target></alt-trans></trans-unit>
+      <trans-unit id="predefined_radiogroup" xml:space="preserve" approved="yes">
+        <source>Radio Button Group</source>
+      <target state="translated">Auswahlknopf-Gruppe</target><alt-trans xml:space="preserve" origin="hugoist"><target>Radio-Button-Gruppe</target></alt-trans><alt-trans xml:space="preserve" origin="jansch"><target>Auswahlknopf-Gruppe</target></alt-trans></trans-unit>
+      <trans-unit id="predefined_checkboxgroup" xml:space="preserve" approved="yes">
+        <source>Checkbox Group</source>
+      <target state="translated">Checkbox-Gruppe</target><alt-trans xml:space="preserve" origin="hugoist"><target>Checkbox-Gruppe</target></alt-trans></trans-unit>
+      <trans-unit id="predefined_name" xml:space="preserve" approved="yes">
+        <source>Full Name</source>
+      <target state="translated">Vollständiger Name</target><alt-trans xml:space="preserve" origin="thomasjbj"><target>Vollständiger Name</target></alt-trans><alt-trans xml:space="preserve" origin="hugoist"><target>Vollständier Name</target></alt-trans></trans-unit>
+      <trans-unit id="left_options" xml:space="preserve" approved="yes">
+        <source>Options</source>
+      <target state="translated">Optionen</target><alt-trans xml:space="preserve" origin="hugoist"><target>Optionen</target></alt-trans></trans-unit>
+      <trans-unit id="options_error" xml:space="preserve" approved="yes">
+        <source>Error</source>
+      <target state="translated">Fehler</target><alt-trans xml:space="preserve" origin="hugoist"><target>Fehler</target></alt-trans></trans-unit>
+      <trans-unit id="options_error_message" xml:space="preserve" approved="yes">
+        <source>There is an error in the settings of the current element. Please check!</source>
+      <target state="translated">In den Einstellungen des aktuellen Elements ist ein Fehler. Bitte überprüfen!</target><alt-trans xml:space="preserve" origin="hugoist"><target>Es ist ein Fehler in den Einstellungen des aktuellen Elements. Bitte überprüfen</target></alt-trans><alt-trans xml:space="preserve" origin="jansch"><target>In den Einstellungen des aktuellen Elements ist ein Fehler. Bitte überprüfen!</target></alt-trans><alt-trans xml:space="preserve" origin="mschwemer"><target>Die Einstellungen des aktuellen Elements enthalten einen Fehler. Bitte überprüfen!</target></alt-trans></trans-unit>
+      <trans-unit id="options_dummy_title" xml:space="preserve" approved="yes">
+        <source>Please select an element on the right</source>
+      <target state="translated">Bitte ein Element auf der rechten Seite auswählen</target><alt-trans xml:space="preserve" origin="hugoist"><target>Bitte ein Element auf der rechten Seite auswählen</target></alt-trans><alt-trans xml:space="preserve" origin="jansch"><target>Bitte ein Element von der rechten Seite auswählen</target></alt-trans><note from="translator">Ich würde den Vorschlag von jansch besser finden, bin mir aber nicht sicher, ob es so richtig ist (Marcus 22.02.12)</note></trans-unit>
+      <trans-unit id="options_dummy_description" xml:space="preserve" approved="yes">
+        <source>When an element has been selected, this area will show the options for the selected element</source>
+      <target state="translated">Wenn ein Element ausgewählt ist, zeigt dieses Feld die Optionen des ausgewählten Elements.</target><alt-trans xml:space="preserve" origin="hugoist"><target>Wenn ein Element ausgewählt ist, zeigt dieses Feld die Optionen des ausgewählten Elements.</target></alt-trans><alt-trans xml:space="preserve" origin="mschwemer"><target>Wenn ein Element ausgewählt ist, zeigt dieser Bereich die Optionen des ausgewählten Elements an</target></alt-trans></trans-unit>
+      <trans-unit id="options_attributes" xml:space="preserve" approved="yes">
+        <source>Attributes Properties</source>
+      <target state="translated">Attribut-Eigenschaften</target><alt-trans xml:space="preserve" origin="hugoist"><target>Attribut-Eigenschaften</target></alt-trans><alt-trans xml:space="preserve" origin="mschwemer"><target>Eigenschaften</target></alt-trans></trans-unit>
+      <trans-unit id="attributes_accept" xml:space="preserve" approved="yes">
+        <source>Accept</source>
+      <target state="translated">Accept</target><alt-trans xml:space="preserve" origin="hugoist"><target>Akzeptiert</target></alt-trans><note from="translator">Es handelt sich um die HTML Property des Input Eelements. Daher nicht zu übersetzen</note><alt-trans xml:space="preserve" origin="cubana13"><target>akzeptieren</target></alt-trans><alt-trans xml:space="preserve" origin="mschwemer"><target>Akzeptieren</target></alt-trans></trans-unit>
+      <trans-unit id="attributes_acceptcharset" xml:space="preserve">
+        <source>Acceptcharset</source>
+      <target>Acceptcharset</target><alt-trans xml:space="preserve" origin="cubana13"><target>Zeichensatz akzeptieren</target></alt-trans><alt-trans xml:space="preserve" origin="meincms"><target>Zeichensatz akzeptiersen</target></alt-trans><note from="translator">Gemeint ist die HTML Property des Input Elements&#13;
+&#13;
+Auch hier die gleiche Frage, wie beim letzten Element. (Marcus 22.02.12)</note></trans-unit>
+      <trans-unit id="attributes_accesskey" xml:space="preserve" approved="yes">
+        <source>Accesskey</source>
+      <target state="translated">Accesskey</target><alt-trans xml:space="preserve" origin="hugoist"><target>Zugangsschlüssel</target></alt-trans><alt-trans xml:space="preserve" origin="meincms"><target>Zugangsschlüssel oder Passwort</target></alt-trans><note from="translator">HTML Property des Input Elements&#13;
+&#13;
+Dito , gilt auch für die ganzen folgenden Labels (Marcus 22.02.12)</note></trans-unit>
+      <trans-unit id="attributes_action" xml:space="preserve" approved="yes">
+        <source>Action</source>
+      <target state="translated">Action</target><alt-trans xml:space="preserve" origin="hugoist"><target>Aktion</target></alt-trans><note from="translator">HTML Property des Form Elements</note></trans-unit>
+      <trans-unit id="attributes_alt" xml:space="preserve" approved="yes">
+        <source>Alt</source>
+      <target state="translated">Alt</target><note from="translator">HTML Property des Input  Elements</note></trans-unit>
+      <trans-unit id="attributes_checked" xml:space="preserve" approved="yes">
+        <source>Checked</source>
+      <target state="translated">Checked</target><alt-trans xml:space="preserve" origin="hugoist"><target>Überprüft</target></alt-trans><note from="translator">HTML Property des Input Elements</note><alt-trans xml:space="preserve" origin="piphi"><target>Ausgewählt</target></alt-trans></trans-unit>
+      <trans-unit id="attributes_class" xml:space="preserve" approved="yes">
+        <source>Class</source>
+      <target state="translated">Class</target><alt-trans xml:space="preserve" origin="hugoist"><target>Klasse</target></alt-trans><alt-trans xml:space="preserve" origin="palettenmann"><target>Class</target></alt-trans><note from="translator">HTML property. Nicht übersetzen.</note></trans-unit>
+      <trans-unit id="attributes_cols" xml:space="preserve" approved="yes">
+        <source>Cols</source>
+      <target state="translated">Cols</target><alt-trans xml:space="preserve" origin="palettenmann"><target>Cols</target></alt-trans><alt-trans xml:space="preserve" origin="piphi"><target>Spalten</target></alt-trans><note from="translator">HTML property. Nicht übersetzen.</note></trans-unit>
+      <trans-unit id="attributes_dir" xml:space="preserve" approved="yes">
+        <source>Dir</source>
+      <target state="translated">Dir</target><alt-trans xml:space="preserve" origin="piphi"><target>Richtung</target></alt-trans><alt-trans xml:space="preserve" origin="palettenmann"><target>Dir</target></alt-trans><alt-trans xml:space="preserve" origin="meincms"><target>Verzeichnis</target></alt-trans><note from="translator">HTML property. Nicht übersetzen.</note></trans-unit>
+      <trans-unit id="attributes_dir_ltr" xml:space="preserve" approved="yes">
+        <source>Left to right</source>
+      <target state="translated">Links nach rechts</target><alt-trans xml:space="preserve" origin="hugoist"><target>Links nach rechts</target></alt-trans></trans-unit>
+      <trans-unit id="attributes_dir_rtl" xml:space="preserve" approved="yes">
+        <source>Right to left</source>
+      <target state="translated">Rechts nach Links</target><alt-trans xml:space="preserve" origin="hugoist"><target>Rechts nach Links</target></alt-trans><alt-trans xml:space="preserve" origin="meincms"><target>Rechts nach links</target></alt-trans></trans-unit>
+      <trans-unit id="attributes_disabled" xml:space="preserve" approved="yes">
+        <source>Disabled</source>
+      <target state="translated">deaktiviert</target><alt-trans xml:space="preserve" origin="hugoist"><target>deaktiviert</target></alt-trans><alt-trans xml:space="preserve" origin="palettenmann"><target>Disabled</target></alt-trans></trans-unit>
+      <trans-unit id="attributes_enctype" xml:space="preserve" approved="yes">
+        <source>Enctype</source>
+      <target state="translated">Enctype</target><alt-trans xml:space="preserve" origin="meincms"><target>Verschlüsseln</target></alt-trans><note from="translator">HTML property. Nicht übersetzen.</note></trans-unit>
+      <trans-unit id="attributes_enctype_1" xml:space="preserve" approved="yes">
+        <source>Encoded</source>
+      <target state="translated">codiert</target><alt-trans xml:space="preserve" origin="hugoist"><target>entschlüsselt</target></alt-trans><alt-trans xml:space="preserve" origin="meincms"><target>kodiert</target></alt-trans></trans-unit>
+      <trans-unit id="attributes_enctype_2" xml:space="preserve">
+        <source>No encoding - File upload</source>
+      <target/><alt-trans xml:space="preserve" origin="hugoist"><target>Keine Entschlüsselung - Datei hochladen</target></alt-trans><alt-trans xml:space="preserve" origin="meincms"><target>Keine Kodierung - Datei hochladen</target></alt-trans><alt-trans xml:space="preserve" origin="mschwemer"><target>Nicht codierender Datei-Upload</target></alt-trans></trans-unit>
+      <trans-unit id="attributes_enctype_3" xml:space="preserve">
+        <source>No encoding - Spaces converted</source>
+      <target/><alt-trans xml:space="preserve" origin="meincms"><target>Keine Kodieren - Leerzeichen konvertiert</target></alt-trans></trans-unit>
+      <trans-unit id="attributes_id" xml:space="preserve" approved="yes">
+        <source>Id</source>
+      <target state="translated">Id</target><alt-trans xml:space="preserve" origin="meincms"><target>Id</target></alt-trans></trans-unit>
+      <trans-unit id="attributes_label" xml:space="preserve" approved="yes">
+        <source>Label</source>
+      <target state="translated">Beschriftung</target><alt-trans xml:space="preserve" origin="hugoist"><target>Aufschrift</target></alt-trans><alt-trans xml:space="preserve" origin="piphi"><target>Bezeichnung</target></alt-trans><alt-trans xml:space="preserve" origin="meincms"><target>Etikett</target></alt-trans><alt-trans xml:space="preserve" origin="meincms"><target>Beschriftung</target></alt-trans></trans-unit>
+      <trans-unit id="attributes_lang" xml:space="preserve" approved="yes">
+        <source>Lang</source>
+      <target state="translated">Sprache</target><alt-trans xml:space="preserve" origin="piphi"><target>Sprache</target></alt-trans></trans-unit>
+      <trans-unit id="attributes_maxlength" xml:space="preserve" approved="yes">
+        <source>Maxlength</source>
+      <target state="translated">Maximale Länge</target><alt-trans xml:space="preserve" origin="hugoist"><target>Max.-Länge</target></alt-trans><alt-trans xml:space="preserve" origin="meincms"><target>Max. Länge</target></alt-trans><alt-trans xml:space="preserve" origin="meincms"><target>Maximale Länge</target></alt-trans></trans-unit>
+      <trans-unit id="attributes_method" xml:space="preserve" approved="yes">
+        <source>Method</source>
+      <target state="translated">Methode</target><alt-trans xml:space="preserve" origin="hugoist"><target>Methode</target></alt-trans></trans-unit>
+      <trans-unit id="attributes_method_get" xml:space="preserve" approved="yes">
+        <source>Get</source>
+      <target state="translated">Get</target><alt-trans xml:space="preserve" origin="hugoist"><target>Bekommen</target></alt-trans><alt-trans xml:space="preserve" origin="piphi"><target>Get (unübersetzt, da Fachbezeichnung für Übertragungsmodus eines Formulars)</target></alt-trans><alt-trans xml:space="preserve" origin="meincms"><target>Abholen (Methode zur Formularübermittlung)</target></alt-trans><note from="translator">(unübersetzt, da Fachbezeichnung für Übertragungsmodus eines Formulars)</note></trans-unit>
+      <trans-unit id="attributes_method_post" xml:space="preserve" approved="yes">
+        <source>Post</source>
+      <target state="translated">Post</target><alt-trans xml:space="preserve" origin="hugoist"><target>abschicken</target></alt-trans><alt-trans xml:space="preserve" origin="piphi"><target>Post (unübersetzt, da Fachbezeichnung für Übertragungsmodus eines Formulars)</target></alt-trans><alt-trans xml:space="preserve" origin="meincms"><target>Senden (Methode zur Formularübermittlung)</target></alt-trans><note from="translator">(unübersetzt, da Fachbezeichnung für Übertragungsmodus eines Formulars)</note></trans-unit>
+      <trans-unit id="attributes_multiple" xml:space="preserve" approved="yes">
+        <source>Multiple</source>
+      <target state="translated">Mehrfach</target><alt-trans xml:space="preserve" origin="hugoist"><target>Mehrfach</target></alt-trans></trans-unit>
+      <trans-unit id="attributes_name" xml:space="preserve" approved="yes">
+        <source>Name</source>
+      <target state="translated">Name</target><alt-trans xml:space="preserve" origin="hugoist"><target>Name</target></alt-trans></trans-unit>
+      <trans-unit id="attributes_readonly" xml:space="preserve" approved="yes">
+        <source>Readonly</source>
+      <target state="translated">nur lesen</target><alt-trans xml:space="preserve" origin="hugoist"><target>nur lesen</target></alt-trans></trans-unit>
+      <trans-unit id="attributes_rows" xml:space="preserve" approved="yes">
+        <source>Rows</source>
+      <target state="translated">Zeilen</target><alt-trans xml:space="preserve" origin="hugoist"><target>Zeile</target></alt-trans></trans-unit>
+      <trans-unit id="attributes_selected" xml:space="preserve" approved="yes">
+        <source>Selected</source>
+      <target state="translated">ausgewählt</target><alt-trans xml:space="preserve" origin="hugoist"><target>ausgewählt</target></alt-trans></trans-unit>
+      <trans-unit id="attributes_size" xml:space="preserve" approved="yes">
+        <source>Size</source>
+      <target state="translated">Größe</target><alt-trans xml:space="preserve" origin="hugoist"><target>Größe</target></alt-trans><alt-trans xml:space="preserve" origin="meincms"><target>Grösse</target></alt-trans><note from="translator">lt. Duden "ß" statt "ss" (Marcus 22.02.12)</note></trans-unit>
+      <trans-unit id="attributes_src" xml:space="preserve">
+        <source>Src</source>
+      <target/><alt-trans xml:space="preserve" origin="hugoist"><target>Quelle</target></alt-trans></trans-unit>
+      <trans-unit id="attributes_style" xml:space="preserve" approved="yes">
+        <source>Style</source>
+      <target state="translated">Stil</target><alt-trans xml:space="preserve" origin="hugoist"><target>Stil</target></alt-trans></trans-unit>
+      <trans-unit id="attributes_tabindex" xml:space="preserve" approved="yes">
+        <source>Tabindex</source>
+      <target state="translated">Tabindex</target><alt-trans xml:space="preserve" origin="hugoist"><target>Tabellenindex</target></alt-trans><alt-trans xml:space="preserve" origin="meincms"><target>Tabulator Index</target></alt-trans><note from="translator">Würde ich nicht übersetzen, da IMO ein stehender Begriff (Marcus 22.02.12)</note></trans-unit>
+      <trans-unit id="attributes_title" xml:space="preserve" approved="yes">
+        <source>Title</source>
+      <target state="translated">Titel</target><alt-trans xml:space="preserve" origin="hugoist"><target>Titel</target></alt-trans></trans-unit>
+      <trans-unit id="attributes_type" xml:space="preserve" approved="yes">
+        <source>Type</source>
+      <target state="translated">Typ</target><alt-trans xml:space="preserve" origin="hugoist"><target>Typ</target></alt-trans></trans-unit>
+      <trans-unit id="attributes_type_button" xml:space="preserve" approved="yes">
+        <source>button</source>
+      <target state="translated">Schaltfläche</target><alt-trans xml:space="preserve" origin="hugoist"><target>Schaltfläche</target></alt-trans><alt-trans xml:space="preserve" origin="meincms"><target>Knopf</target></alt-trans></trans-unit>
+      <trans-unit id="attributes_type_checkbox" xml:space="preserve" approved="yes">
+        <source>checkbox</source>
+      <target state="translated">Checkbox</target><alt-trans xml:space="preserve" origin="hugoist"><target>Checkbox</target></alt-trans><alt-trans xml:space="preserve" origin="piphi"><target>Auswahlbox</target></alt-trans><alt-trans xml:space="preserve" origin="meincms"><target>Ankreuzfeld</target></alt-trans></trans-unit>
+      <trans-unit id="attributes_type_file" xml:space="preserve" approved="yes">
+        <source>file</source>
+      <target state="translated">Datei</target><alt-trans xml:space="preserve" origin="hugoist"><target>Datei</target></alt-trans></trans-unit>
+      <trans-unit id="attributes_type_hidden" xml:space="preserve" approved="yes">
+        <source>hidden</source>
+      <target state="translated">Versteckt</target><alt-trans xml:space="preserve" origin="hugoist"><target>Versteckt</target></alt-trans></trans-unit>
+      <trans-unit id="attributes_type_image" xml:space="preserve" approved="yes">
+        <source>image</source>
+      <target state="translated">Bild</target><alt-trans xml:space="preserve" origin="hugoist"><target>Bild</target></alt-trans></trans-unit>
+      <trans-unit id="attributes_type_password" xml:space="preserve" approved="yes">
+        <source>password</source>
+      <target state="translated">Passwort</target><alt-trans xml:space="preserve" origin="hugoist"><target>Passwort</target></alt-trans></trans-unit>
+      <trans-unit id="attributes_type_radio" xml:space="preserve">
+        <source>radio</source>
+      <target/><alt-trans xml:space="preserve" origin="hugoist"><target>Radio</target></alt-trans><alt-trans xml:space="preserve" origin="piphi"><target>exklusive Auswahl</target></alt-trans><alt-trans xml:space="preserve" origin="meincms"><target>exklusiv Auswahl (Radio)</target></alt-trans><note from="translator">Bin mit keiner Übersetzung glücklich. Hängt auch von dem Kontext ab. Kann den Einsatz jemand reproduzieren? (Marcus 22.02.12)</note></trans-unit>
+      <trans-unit id="attributes_type_reset" xml:space="preserve" approved="yes">
+        <source>reset</source>
+      <target state="translated">zurücksetzen</target><alt-trans xml:space="preserve" origin="hugoist"><target>zurücksetzen</target></alt-trans></trans-unit>
+      <trans-unit id="attributes_type_submit" xml:space="preserve" approved="yes">
+        <source>submit</source>
+      <target state="translated">absenden</target><alt-trans xml:space="preserve" origin="hugoist"><target>absenden</target></alt-trans></trans-unit>
+      <trans-unit id="attributes_type_text" xml:space="preserve" approved="yes">
+        <source>text</source>
+      <target state="translated">Text</target><alt-trans xml:space="preserve" origin="hugoist"><target>Text</target></alt-trans></trans-unit>
+      <trans-unit id="attributes_value" xml:space="preserve" approved="yes">
+        <source>Value</source>
+      <target state="translated">Wert</target><alt-trans xml:space="preserve" origin="hugoist"><target>Wert</target></alt-trans></trans-unit>
+      <trans-unit id="options_label" xml:space="preserve">
+        <source>Label Properties</source>
+      <target/><alt-trans xml:space="preserve" origin="hugoist"><target>Beschriftungseigentschaften</target></alt-trans><alt-trans xml:space="preserve" origin="piphi"><target>Beschriftungseigenschaften</target></alt-trans><alt-trans xml:space="preserve" origin="meincms"><target>Bezeichnungseigenschaften</target></alt-trans><alt-trans xml:space="preserve" origin="mschwemer"><target>Eigenschaften der Beschriftung</target></alt-trans></trans-unit>
+      <trans-unit id="label_label" xml:space="preserve" approved="yes">
+        <source>Label</source>
+      <target state="translated">Beschriftung</target><alt-trans xml:space="preserve" origin="hugoist"><target>Beschriftung</target></alt-trans><alt-trans xml:space="preserve" origin="meincms"><target>Bezeichnung</target></alt-trans></trans-unit>
+      <trans-unit id="label_layout" xml:space="preserve" approved="yes">
+        <source>Label position</source>
+      <target state="translated">Beschriftungsposition</target><alt-trans xml:space="preserve" origin="hugoist"><target>Beschriftungsposition</target></alt-trans><alt-trans xml:space="preserve" origin="meincms"><target>Bezeichnungsposition</target></alt-trans><alt-trans xml:space="preserve" origin="mschwemer"><target>Position der Beschriftung</target></alt-trans></trans-unit>
+      <trans-unit id="label_layout_front" xml:space="preserve">
+        <source>In front</source>
+      <target/><alt-trans xml:space="preserve" origin="hugoist"><target>in Front</target></alt-trans><alt-trans xml:space="preserve" origin="meincms"><target>zu vorderst</target></alt-trans><alt-trans xml:space="preserve" origin="mschwemer"><target>im Vordergrund</target></alt-trans></trans-unit>
+      <trans-unit id="label_layout_back" xml:space="preserve">
+        <source>After</source>
+      <target/><alt-trans xml:space="preserve" origin="hugoist"><target>nach</target></alt-trans><alt-trans xml:space="preserve" origin="meincms"><target>danach</target></alt-trans><alt-trans xml:space="preserve" origin="meincms"><target>hinter</target></alt-trans></trans-unit>
+      <trans-unit id="options_legend" xml:space="preserve">
+        <source>Legend Properties</source>
+      <target/><alt-trans xml:space="preserve" origin="hugoist"><target>Legendeneigenschaften</target></alt-trans><alt-trans xml:space="preserve" origin="mschwemer"><target>Eigenschaften der Legende</target></alt-trans></trans-unit>
+      <trans-unit id="legend_legend" xml:space="preserve" approved="yes">
+        <source>Legend</source>
+      <target state="translated">Legende</target><alt-trans xml:space="preserve" origin="hugoist"><target>Legende</target></alt-trans></trans-unit>
+      <trans-unit id="options_filters" xml:space="preserve" approved="yes">
+        <source>Filters</source>
+      <target state="translated">Filter</target><alt-trans xml:space="preserve" origin="hugoist"><target>Filter</target></alt-trans></trans-unit>
+      <trans-unit id="filters_emptytext" xml:space="preserve" approved="yes">
+        <source>Add a filter</source>
+      <target state="translated">Einen Filter hinzufügen</target><alt-trans xml:space="preserve" origin="hugoist"><target>einen Filter hinzufügen</target></alt-trans><alt-trans xml:space="preserve" origin="mschwemer"><target>Filter hinzufügen</target></alt-trans></trans-unit>
+      <trans-unit id="filters_alert_title" xml:space="preserve" approved="yes">
+        <source>Adding a filter</source>
+      <target state="translated">Hinzufügen eines Filters</target><alt-trans xml:space="preserve" origin="hugoist"><target>einen Filter hinzufügen</target></alt-trans><alt-trans xml:space="preserve" origin="meincms"><target>hinzufügen eines Filters</target></alt-trans></trans-unit>
+      <trans-unit id="filters_alert_description" xml:space="preserve" approved="yes">
+        <source>The selected filter is already present</source>
+      <target state="translated">Der gewählte Filter wurde bereits verwendet</target><alt-trans xml:space="preserve" origin="hugoist"><target>Der ausgewählte Filter ist bereits vorhanden</target></alt-trans><alt-trans xml:space="preserve" origin="meincms"><target>der gewählte Filter wurde bereits verwendet</target></alt-trans></trans-unit>
+      <trans-unit id="filters_dummy_title" xml:space="preserve" approved="yes">
+        <source>No filter selected</source>
+      <target state="translated">Kein Filter ausgewählt</target><alt-trans xml:space="preserve" origin="hugoist"><target>Kein Filter ausgewählt</target></alt-trans><alt-trans xml:space="preserve" origin="meincms"><target>keinen Filter ausgewählt</target></alt-trans></trans-unit>
+      <trans-unit id="filters_dummy_description" xml:space="preserve">
+        <source>To add a filter, select one from the dropdown</source>
+      <target/><alt-trans xml:space="preserve" origin="hugoist"><target>Um einen Filter hinzuzufügen, bitte einen aus dem Drop-Downmenü auswählen</target></alt-trans><alt-trans xml:space="preserve" origin="mschwemer"><target>Um einen Filter hinzuzufügen, wählen Sie bitte einen aus dem Auswahlfeld</target></alt-trans></trans-unit>
+      <trans-unit id="filters_alphabetic" xml:space="preserve" approved="yes">
+        <source>Alphabetic</source>
+      <target state="translated">Alphabetisch</target><alt-trans xml:space="preserve" origin="hugoist"><target>Alphabetisch</target></alt-trans></trans-unit>
+      <trans-unit id="filters_alphanumeric" xml:space="preserve" approved="yes">
+        <source>Alphanumeric</source>
+      <target state="translated">Alphanumerisch</target><alt-trans xml:space="preserve" origin="hugoist"><target>Alphanumerisch</target></alt-trans><alt-trans xml:space="preserve" origin="meincms"><target>Alphanumerische</target></alt-trans></trans-unit>
+      <trans-unit id="filters_currency" xml:space="preserve" approved="yes">
+        <source>Currency</source>
+      <target state="translated">Währung</target><alt-trans xml:space="preserve" origin="hugoist"><target>Geltung</target></alt-trans><alt-trans xml:space="preserve" origin="piphi"><target>Währung</target></alt-trans></trans-unit>
+      <trans-unit id="filters_digit" xml:space="preserve" approved="yes">
+        <source>Digit</source>
+      <target state="translated">Ziffer</target><alt-trans xml:space="preserve" origin="hugoist"><target>Ziffer</target></alt-trans><alt-trans xml:space="preserve" origin="meincms"><target>Zeichen</target></alt-trans></trans-unit>
+      <trans-unit id="filters_integer" xml:space="preserve" approved="yes">
+        <source>Integer</source>
+      <target state="translated">Ganzzahl</target><alt-trans xml:space="preserve" origin="hugoist"><target>Ganze Zahl</target></alt-trans><alt-trans xml:space="preserve" origin="meincms"><target>Ganzzahl</target></alt-trans></trans-unit>
+      <trans-unit id="filters_lowercase" xml:space="preserve" approved="yes">
+        <source>Lowercase</source>
+      <target state="translated">Kleingeschrieben</target><alt-trans xml:space="preserve" origin="hugoist"><target>kleingeschrieben</target></alt-trans></trans-unit>
+      <trans-unit id="filters_regexp" xml:space="preserve" approved="yes">
+        <source>Regular Expression</source>
+      <target state="translated">Regulärer Ausdruck</target><alt-trans xml:space="preserve" origin="hugoist"><target>Regulärer Ausdruck</target></alt-trans></trans-unit>
+      <trans-unit id="filters_removexss" xml:space="preserve" approved="yes">
+        <source>Remove XSS</source>
+      <target state="translated">XSS entfernen</target><alt-trans xml:space="preserve" origin="hugoist"><target>XSS entfernen</target></alt-trans></trans-unit>
+      <trans-unit id="filters_stripnewlines" xml:space="preserve" approved="yes">
+        <source>Strip New Lines</source>
+      <target state="translated">Leerzeilen entfernen</target><alt-trans xml:space="preserve" origin="piphi"><target>Leerzeilen entfernen</target></alt-trans><alt-trans xml:space="preserve" origin="meincms"><target>Neue Zeilen entfernen</target></alt-trans><alt-trans xml:space="preserve" origin="mschwemer"><target>Zeilenumbrüche entfernen</target></alt-trans></trans-unit>
+      <trans-unit id="filters_titlecase" xml:space="preserve">
+        <source>Titlecase</source>
+      <target/><alt-trans xml:space="preserve" origin="hugoist"><target>großgeschrieben</target></alt-trans><alt-trans xml:space="preserve" origin="meincms"><target>grossgeschrieben</target></alt-trans><alt-trans xml:space="preserve" origin="mschwemer"><target>Großschrift</target></alt-trans></trans-unit>
+      <trans-unit id="filters_trim" xml:space="preserve">
+        <source>Trim</source>
+      <target/><alt-trans xml:space="preserve" origin="hugoist"><target>erfassen</target></alt-trans><alt-trans xml:space="preserve" origin="meincms"><target>korrigierte Einstellung</target></alt-trans><alt-trans xml:space="preserve" origin="mschwemer"><target>Leerzeichen filtern</target></alt-trans></trans-unit>
+      <trans-unit id="filters_uppercase" xml:space="preserve" approved="yes">
+        <source>Uppercase</source>
+      <target state="translated">Großgeschrieben</target><alt-trans xml:space="preserve" origin="hugoist"><target>großgeschrieben</target></alt-trans><alt-trans xml:space="preserve" origin="meincms"><target>grossgeschrieben</target></alt-trans></trans-unit>
+      <trans-unit id="filters_properties_allowwhitespace" xml:space="preserve" approved="yes">
+        <source>Allow whitespace</source>
+      <target state="translated">Leerzeichen erlauben</target><alt-trans xml:space="preserve" origin="hugoist"><target>Leerzeichen erlauben</target></alt-trans></trans-unit>
+      <trans-unit id="filters_properties_decimalpoint" xml:space="preserve" approved="yes">
+        <source>Decimal point</source>
+      <target state="translated">Dezimalpunkt</target><alt-trans xml:space="preserve" origin="hugoist"><target>Dezimalpunkt</target></alt-trans><alt-trans xml:space="preserve" origin="meincms"><target>Dezimaler Punkt</target></alt-trans></trans-unit>
+      <trans-unit id="filters_properties_thousandseparator" xml:space="preserve" approved="yes">
+        <source>Thousand separator</source>
+      <target state="translated">Tausender-Trennzeichen</target><alt-trans xml:space="preserve" origin="hugoist"><target>Tausend-Seperator</target></alt-trans><alt-trans xml:space="preserve" origin="piphi"><target>Tausender-Trenner</target></alt-trans><alt-trans xml:space="preserve" origin="meincms"><target>Tausender-Trennzeichen</target></alt-trans></trans-unit>
+      <trans-unit id="filters_properties_expression" xml:space="preserve" approved="yes">
+        <source>Expression</source>
+      <target state="translated">Ausdruck</target><alt-trans xml:space="preserve" origin="hugoist"><target>Ausdruck</target></alt-trans></trans-unit>
+      <trans-unit id="filters_properties_characterlist" xml:space="preserve" approved="yes">
+        <source>Character list</source>
+      <target state="translated">Zeichenliste</target><alt-trans xml:space="preserve" origin="hugoist"><target>Zeichenliste</target></alt-trans><alt-trans xml:space="preserve" origin="meincms"><target>Glyphen Liste</target></alt-trans></trans-unit>
+      <trans-unit id="filters_properties_none" xml:space="preserve" approved="yes">
+        <source>This filter has no configuration settings</source>
+      <target state="translated">Dieser Filter hat keine Konfigurationseinstellungen</target><alt-trans xml:space="preserve" origin="hugoist"><target>Der Filter hat keine Konfigurationseinstellungen</target></alt-trans><alt-trans xml:space="preserve" origin="meincms"><target>Dieser Filter hat keine Konfigurationseinstellungen</target></alt-trans></trans-unit>
+      <trans-unit id="options_validation" xml:space="preserve" approved="yes">
+        <source>Validation</source>
+      <target state="translated">Gültigkeitsprüfung</target><alt-trans xml:space="preserve" origin="hugoist"><target>Gültigkeit</target></alt-trans><alt-trans xml:space="preserve" origin="meincms"><target>Gültigkeitsprüfung</target></alt-trans><alt-trans xml:space="preserve" origin="meincms"><target>Validierung</target></alt-trans></trans-unit>
+      <trans-unit id="validation_emptytext" xml:space="preserve" approved="yes">
+        <source>Add a validation rule</source>
+      <target state="translated">Eine Gültigkeitsregel hinzufügen</target><alt-trans xml:space="preserve" origin="hugoist"><target>Eine Gültigkeitsregel hinzufügen</target></alt-trans><alt-trans xml:space="preserve" origin="meincms"><target>Eine Validierungsregel hinzufügen</target></alt-trans><alt-trans xml:space="preserve" origin="meincms"><target>Eine Gültigkeitsprüfungsregel hinzufügen</target></alt-trans></trans-unit>
+      <trans-unit id="validation_alert_title" xml:space="preserve" approved="yes">
+        <source>Adding a validation rule</source>
+      <target state="translated">eine Gültigkeitsregel hinzufügen</target><alt-trans xml:space="preserve" origin="hugoist"><target>eine Gültigkeitsregel hinzufügen</target></alt-trans><alt-trans xml:space="preserve" origin="meincms"><target>eine Gültigkeitsprüfungsregel hinzufügen</target></alt-trans><alt-trans xml:space="preserve" origin="meincms"><target>eine Validierungsregel hinzufügen</target></alt-trans></trans-unit>
+      <trans-unit id="validation_alert_description" xml:space="preserve" approved="yes">
+        <source>The selected validation rule is already present</source>
+      <target state="translated">Die ausgewählte Gültigkeitsregel ist bereits vorhanden</target><alt-trans xml:space="preserve" origin="hugoist"><target>Die ausgewählte Gültigkeitsregel ist bereits vorhanden</target></alt-trans><alt-trans xml:space="preserve" origin="meincms"><target>Die ausgewählte Gültigkeitsprüfungsregel ist bereits vorhanden</target></alt-trans><alt-trans xml:space="preserve" origin="meincms"><target>Die gewählte Validierungsregel ist bereits vorhanden</target></alt-trans></trans-unit>
+      <trans-unit id="validation_dummy_title" xml:space="preserve" approved="yes">
+        <source>No validation rule selected</source>
+      <target state="translated">Keine Gültigkeitsregel ausgewählt</target><alt-trans xml:space="preserve" origin="hugoist"><target>Keine Gültigkeitsregel ausgewählt</target></alt-trans><alt-trans xml:space="preserve" origin="meincms"><target>Keine Gültigkeitsprüfungsregel ausgwählt</target></alt-trans><alt-trans xml:space="preserve" origin="meincms"><target>Keine Validierungsregel ausgewählt</target></alt-trans></trans-unit>
+      <trans-unit id="validation_dummy_description" xml:space="preserve">
+        <source>To add a validation rule, select one from the dropdown</source>
+      <target/><alt-trans xml:space="preserve" origin="hugoist"><target>Um eine Gültigkeitsregel hinzuzufügen, bitte eine aus dem Dropdownmenü auswählen</target></alt-trans><alt-trans xml:space="preserve" origin="meincms"><target>Um eine Gültigkeitsprüfungsregel hinzuzufügen, bitte die gewünschte aus dem Drop-Downmenü auswählen</target></alt-trans><alt-trans xml:space="preserve" origin="mschwemer"><target>Um eine Gültigkeitsregel hinzuzufügen, wählen Sie bitte eine aus dem Auswahlfeld.</target></alt-trans></trans-unit>
+      <trans-unit id="validation_alphabetic" xml:space="preserve" approved="yes">
+        <source>Alphabetic</source>
+      <target state="translated">Alphabetisch</target><alt-trans xml:space="preserve" origin="hugoist"><target>Alphabetisch</target></alt-trans></trans-unit>
+      <trans-unit id="validation_alphanumeric" xml:space="preserve" approved="yes">
+        <source>Alphanumeric</source>
+      <target state="translated">Alphanumerisch</target><alt-trans xml:space="preserve" origin="hugoist"><target>Alphanumerisch</target></alt-trans></trans-unit>
+      <trans-unit id="validation_between" xml:space="preserve" approved="yes">
+        <source>Between</source>
+      <target state="translated">Zwischen</target><alt-trans xml:space="preserve" origin="hugoist"><target>zwischen</target></alt-trans></trans-unit>
+      <trans-unit id="validation_date" xml:space="preserve" approved="yes">
+        <source>Date</source>
+      <target state="translated">Datum</target><alt-trans xml:space="preserve" origin="hugoist"><target>Datum</target></alt-trans></trans-unit>
+      <trans-unit id="validation_digit" xml:space="preserve" approved="yes">
+        <source>Digit</source>
+      <target state="translated">Ziffer</target><alt-trans xml:space="preserve" origin="hugoist"><target>Ziffer</target></alt-trans></trans-unit>
+      <trans-unit id="validation_email" xml:space="preserve" approved="yes">
+        <source>Email address</source>
+      <target state="translated">E-Mail-Adresse</target><alt-trans xml:space="preserve" origin="hugoist"><target>E-Mailadresse</target></alt-trans><alt-trans xml:space="preserve" origin="meincms"><target>E-Mail Adresse</target></alt-trans></trans-unit>
+      <trans-unit id="validation_equals" xml:space="preserve" approved="yes">
+        <source>Equals</source>
+      <target state="translated">Ist gleich</target><alt-trans xml:space="preserve" origin="hugoist"><target>gleich</target></alt-trans><alt-trans xml:space="preserve" origin="meincms"><target>ist gleich</target></alt-trans></trans-unit>
+      <trans-unit id="validation_fileallowedtypes" xml:space="preserve" approved="yes">
+        <source>Allowed mimetypes for file</source>
+      <target state="translated">Erlaubte MIME-Typen für Datei</target><alt-trans xml:space="preserve" origin="hugoist"><target>MIME-Typen für Dateien erlauben</target></alt-trans><alt-trans xml:space="preserve" origin="meincms"><target>Erlaubte MIME-Typen für Datei</target></alt-trans></trans-unit>
+      <trans-unit id="validation_filemaximumsize" xml:space="preserve" approved="yes">
+        <source>Maximum size for file (bytes)</source>
+      <target state="translated">Maximale Dateigröße (Bytes)</target><alt-trans xml:space="preserve" origin="hugoist"><target>Maximale Dateigröße (bytes)</target></alt-trans></trans-unit>
+      <trans-unit id="validation_fileminimumsize" xml:space="preserve" approved="yes">
+        <source>Minimum size for file (bytes)</source>
+      <target state="translated">Minimale Dateigröße (Bytes)</target><alt-trans xml:space="preserve" origin="hugoist"><target>Minimale Dateigröße (bytes)</target></alt-trans></trans-unit>
+      <trans-unit id="validation_float" xml:space="preserve" approved="yes">
+        <source>Float</source>
+      <target state="translated">Gleitkommazahl</target><alt-trans xml:space="preserve" origin="hugoist"><target>Gleitkommazahl</target></alt-trans></trans-unit>
+      <trans-unit id="validation_greaterthan" xml:space="preserve" approved="yes">
+        <source>Greater than</source>
+      <target state="translated">Größer als</target><alt-trans xml:space="preserve" origin="hugoist"><target>Größer als</target></alt-trans></trans-unit>
+      <trans-unit id="validation_inarray" xml:space="preserve" approved="yes">
+        <source>In array</source>
+      <target state="translated">Im Array</target></trans-unit>
+      <trans-unit id="validation_integer" xml:space="preserve" approved="yes">
+        <source>Integer</source>
+      <target state="translated">Ganze Zahl</target><alt-trans xml:space="preserve" origin="hugoist"><target>Ganze Zahl</target></alt-trans></trans-unit>
+      <trans-unit id="validation_ip" xml:space="preserve" approved="yes">
+        <source>Ip address</source>
+      <target state="translated">IP-Adresse</target><alt-trans xml:space="preserve" origin="hugoist"><target>IP-Adresse</target></alt-trans></trans-unit>
+      <trans-unit id="validation_length" xml:space="preserve" approved="yes">
+        <source>Length</source>
+      <target state="translated">Länge</target><alt-trans xml:space="preserve" origin="hugoist"><target>Länge</target></alt-trans></trans-unit>
+      <trans-unit id="validation_lessthan" xml:space="preserve" approved="yes">
+        <source>Less than</source>
+      <target state="translated">weniger als</target><alt-trans xml:space="preserve" origin="hugoist"><target>weniger als</target></alt-trans></trans-unit>
+      <trans-unit id="validation_regexp" xml:space="preserve" approved="yes">
+        <source>Regular Expression</source>
+      <target state="translated">Regulärer Ausdruck</target><alt-trans xml:space="preserve" origin="hugoist"><target>regulärer Ausdruck</target></alt-trans></trans-unit>
+      <trans-unit id="validation_required" xml:space="preserve" approved="yes">
+        <source>Required</source>
+      <target state="translated">Benötigt</target><alt-trans xml:space="preserve" origin="hugoist"><target>benötigt</target></alt-trans><alt-trans xml:space="preserve" origin="mschwemer"><target>Notwendig</target></alt-trans></trans-unit>
+      <trans-unit id="validation_uri" xml:space="preserve">
+        <source>Uniform Resource Identifier</source>
+      <target/><alt-trans xml:space="preserve" origin="piphi"><target>Web-Adresse</target></alt-trans><alt-trans xml:space="preserve" origin="meincms"><target>Internetadresse</target></alt-trans><alt-trans xml:space="preserve" origin="meincms"><target>Internetadresse (URL)</target></alt-trans><note from="translator">Ich würde es nicht übersetzen, da es ein Fachbegriff ist. (Marcus 22.02.12)</note><alt-trans xml:space="preserve" origin="mschwemer"><target>Uniform Resource Identifier</target></alt-trans></trans-unit>
+      <trans-unit id="validation_properties_message" xml:space="preserve" approved="yes">
+        <source>Message</source>
+      <target state="translated">Nachricht</target><alt-trans xml:space="preserve" origin="hugoist"><target>Meldung</target></alt-trans><alt-trans xml:space="preserve" origin="meincms"><target>Nachricht</target></alt-trans></trans-unit>
+      <trans-unit id="validation_properties_error" xml:space="preserve" approved="yes">
+        <source>Error</source>
+      <target state="translated">Fehler</target><alt-trans xml:space="preserve" origin="hugoist"><target>Fehler</target></alt-trans></trans-unit>
+      <trans-unit id="validation_properties_breakonerror" xml:space="preserve" approved="yes">
+        <source>Break on error</source>
+      <target state="translated">Abbruch bei Fehler</target><alt-trans xml:space="preserve" origin="hugoist"><target>Abbruch durch Fehler</target></alt-trans><alt-trans xml:space="preserve" origin="meincms"><target>Bei Fehler pausieren</target></alt-trans><alt-trans xml:space="preserve" origin="meincms"><target>Abbruch nach Fehler</target></alt-trans><alt-trans xml:space="preserve" origin="mschwemer"><target>Abbrechen nach Fehler</target></alt-trans></trans-unit>
+      <trans-unit id="validation_properties_showmessage" xml:space="preserve" approved="yes">
+        <source>Show message in label</source>
+      <target state="translated">Meldung in Beschriftung anzeigen</target><alt-trans xml:space="preserve" origin="hugoist"><target>Meldung in Beschriftung anzeigen</target></alt-trans></trans-unit>
+      <trans-unit id="validation_properties_allowwhitespace" xml:space="preserve" approved="yes">
+        <source>Allow whitespace</source>
+      <target state="translated">Leerzeichen erlauben</target><alt-trans xml:space="preserve" origin="hugoist"><target>Leerzeichen erlauben</target></alt-trans></trans-unit>
+      <trans-unit id="validation_properties_minimum" xml:space="preserve" approved="yes">
+        <source>Minimum</source>
+      <target state="translated">Minimum</target><alt-trans xml:space="preserve" origin="hugoist"><target>Minimum</target></alt-trans></trans-unit>
+      <trans-unit id="validation_properties_maximum" xml:space="preserve" approved="yes">
+        <source>Maximum</source>
+      <target state="translated">Maximum</target><alt-trans xml:space="preserve" origin="hugoist"><target>Maximum</target></alt-trans></trans-unit>
+      <trans-unit id="validation_properties_inclusive" xml:space="preserve" approved="yes">
+        <source>Inclusive</source>
+      <target state="translated">Inklusive</target><alt-trans xml:space="preserve" origin="hugoist"><target>Inklusive</target></alt-trans></trans-unit>
+      <trans-unit id="validation_properties_format" xml:space="preserve" approved="yes">
+        <source>Format</source>
+      <target state="translated">Format</target><alt-trans xml:space="preserve" origin="hugoist"><target>Format</target></alt-trans></trans-unit>
+      <trans-unit id="validation_properties_field" xml:space="preserve" approved="yes">
+        <source>Field</source>
+      <target state="translated">Feld</target><alt-trans xml:space="preserve" origin="hugoist"><target>Feld</target></alt-trans></trans-unit>
+      <trans-unit id="validation_properties_array" xml:space="preserve" approved="yes">
+        <source>Array (Comma separated)</source>
+      <target state="translated">Array (Komma-getrennt)</target></trans-unit>
+      <trans-unit id="validation_properties_expression" xml:space="preserve" approved="yes">
+        <source>Expression</source>
+      <target state="translated">Ausdruck</target><alt-trans xml:space="preserve" origin="hugoist"><target>Ausdruck</target></alt-trans></trans-unit>
+      <trans-unit id="validation_properties_types" xml:space="preserve" approved="yes">
+        <source>Mime types</source>
+      <target state="translated">MIME-Typen</target><alt-trans xml:space="preserve" origin="hugoist"><target>MIME-Typen</target></alt-trans></trans-unit>
+      <trans-unit id="options_fieldoptions" xml:space="preserve" approved="yes">
+        <source>Field options</source>
+      <target state="translated">Feldoptionen</target><alt-trans xml:space="preserve" origin="hugoist"><target>Feldoptionen</target></alt-trans><alt-trans xml:space="preserve" origin="meincms"><target>Feld-Optionen</target></alt-trans></trans-unit>
+      <trans-unit id="fieldoptions_emptytext" xml:space="preserve" approved="yes">
+        <source>No options to display</source>
+      <target state="translated">Keine Optionen zum Anzeigen</target><alt-trans xml:space="preserve" origin="hugoist"><target>keine Optionen zum anzeigen</target></alt-trans><alt-trans xml:space="preserve" origin="meincms"><target>Keine anzeigbaren Optionen</target></alt-trans></trans-unit>
+      <trans-unit id="fieldoptions_data" xml:space="preserve" approved="yes">
+        <source>Data</source>
+      <target state="translated">Daten</target><alt-trans xml:space="preserve" origin="hugoist"><target>Daten</target></alt-trans></trans-unit>
+      <trans-unit id="fieldoptions_selected" xml:space="preserve" approved="yes">
+        <source>Selected</source>
+      <target state="translated">Ausgewählt</target><alt-trans xml:space="preserve" origin="hugoist"><target>ausgewählt</target></alt-trans></trans-unit>
+      <trans-unit id="fieldoptions_button_add" xml:space="preserve" approved="yes">
+        <source>Add option</source>
+      <target state="translated">Option hinzufügen</target><alt-trans xml:space="preserve" origin="hugoist"><target>Option hinzufügen</target></alt-trans></trans-unit>
+      <trans-unit id="fieldoptions_new" xml:space="preserve" approved="yes">
+        <source>New option</source>
+      <target state="translated">Neue Option</target><alt-trans xml:space="preserve" origin="hugoist"><target>Neue option</target></alt-trans></trans-unit>
+      <trans-unit id="options_various" xml:space="preserve" approved="yes">
+        <source>Various Properties</source>
+      <target state="translated">Verschiedene Eigenschaften</target><alt-trans xml:space="preserve" origin="hugoist"><target>verschiedene Eigenschaften</target></alt-trans></trans-unit>
+      <trans-unit id="various_properties_name" xml:space="preserve" approved="yes">
+        <source>Name</source>
+      <target state="translated">Name</target><alt-trans xml:space="preserve" origin="hugoist"><target>Name</target></alt-trans></trans-unit>
+      <trans-unit id="various_properties_content" xml:space="preserve" approved="yes">
+        <source>Content</source>
+      <target state="translated">Inhalt</target><alt-trans xml:space="preserve" origin="hugoist"><target>Inhalt</target></alt-trans></trans-unit>
+      <trans-unit id="various_properties_headingsize" xml:space="preserve" approved="yes">
+        <source>Heading size</source>
+      <target state="translated">Überschriftengröße</target><alt-trans xml:space="preserve" origin="hugoist"><target>Überschriftengröße</target></alt-trans></trans-unit>
+      <trans-unit id="various_properties_prefix" xml:space="preserve" approved="yes">
+        <source>Show prefix</source>
+      <target state="translated">Präfix anzeigen</target><alt-trans xml:space="preserve" origin="hugoist"><target>Präfix anzeigen</target></alt-trans></trans-unit>
+      <trans-unit id="various_properties_suffix" xml:space="preserve" approved="yes">
+        <source>Show suffix</source>
+      <target state="translated">Suffix anzeigen</target><alt-trans xml:space="preserve" origin="hugoist"><target>Suffix anzeigen</target></alt-trans></trans-unit>
+      <trans-unit id="various_properties_middlename" xml:space="preserve" approved="yes">
+        <source>Show middle name</source>
+      <target state="translated">Mittleren Namen anzeigen</target><alt-trans xml:space="preserve" origin="hugoist"><target>Mittleren Namen anzeigen</target></alt-trans></trans-unit>
+      <trans-unit id="left_form" xml:space="preserve" approved="yes">
+        <source>Form</source>
+      <target state="translated">Formular</target><alt-trans xml:space="preserve" origin="hugoist"><target>Formular</target></alt-trans></trans-unit>
+      <trans-unit id="form_prefix" xml:space="preserve" approved="yes">
+        <source>Prefix</source>
+      <target state="translated">Präfix</target><alt-trans xml:space="preserve" origin="hugoist"><target>Präfix</target></alt-trans></trans-unit>
+      <trans-unit id="form_postprocessor" xml:space="preserve">
+        <source>Post Processors</source>
+      <target/><alt-trans xml:space="preserve" origin="hugoist"><target>Nachrichten Prozessor</target></alt-trans><alt-trans xml:space="preserve" origin="piphi"><target>Nachbearbeitung</target></alt-trans><alt-trans xml:space="preserve" origin="mschwemer"><target>Nachgeschaltete automatisierte Bearbeitung (just kidding ;-)</target></alt-trans><alt-trans xml:space="preserve" origin="mschwemer"><target>Nachgeschalteter Prozessor</target></alt-trans></trans-unit>
+      <trans-unit id="postprocessor_emptytext" xml:space="preserve">
+        <source>Add a Post Processor</source>
+      <target/><alt-trans xml:space="preserve" origin="hugoist"><target>Nachrichten-Prozessor hinzufügen</target></alt-trans><alt-trans xml:space="preserve" origin="piphi"><target>füge Nachbearbeitung hinzu</target></alt-trans></trans-unit>
+      <trans-unit id="postprocessor_alert_title" xml:space="preserve">
+        <source>Adding a Post Processor</source>
+      <target/><alt-trans xml:space="preserve" origin="hugoist"><target>Nachrichten-Prozessor hinzufügen</target></alt-trans><alt-trans xml:space="preserve" origin="piphi"><target>Nachbearbeitung wird hinzugefügt</target></alt-trans></trans-unit>
+      <trans-unit id="postprocessor_alert_description" xml:space="preserve">
+        <source>The selected post processor is already present</source>
+      <target/><alt-trans xml:space="preserve" origin="hugoist"><target>Der ausgewählte Nachrichten-Prozessor ist bereits vorhanden</target></alt-trans><alt-trans xml:space="preserve" origin="piphi"><target>Die ausgewählte Nachbearbeitung existiert bereits</target></alt-trans></trans-unit>
+      <trans-unit id="postprocessor_mail" xml:space="preserve">
+        <source>Send email</source>
+      </trans-unit>
+      <trans-unit id="postprocessor_dummy_title" xml:space="preserve">
+        <source>No post processor selected</source>
+      <target/><alt-trans xml:space="preserve" origin="hugoist"><target>Kein Nachrichten-Prozessor ausgewählt</target></alt-trans><alt-trans xml:space="preserve" origin="piphi"><target>Keien Nachbearbeitung ausgewählt</target></alt-trans></trans-unit>
+      <trans-unit id="postprocessor_dummy_description" xml:space="preserve">
+        <source>To add a post processor, select one from the dropdown</source>
+      <target/><alt-trans xml:space="preserve" origin="hugoist"><target>Um einen Nachrichten-Prozessor hinzuzufügen, bitte einen aus dem Dropdownmenü auswählen</target></alt-trans><alt-trans xml:space="preserve" origin="piphi"><target>Wähle eine Nachbearbeitung im DropDown-Menü aus um sie hinzuzufügen</target></alt-trans></trans-unit>
+      <trans-unit id="postprocessor_properties_recipientemail" xml:space="preserve" approved="yes">
+        <source>Email address of the recipient</source>
+      <target state="translated">E-Mailadresse des Empfängers</target><alt-trans xml:space="preserve" origin="hugoist"><target>E-Mailadresse des Empfängers</target></alt-trans></trans-unit>
+      <trans-unit id="postprocessor_properties_senderemail" xml:space="preserve" approved="yes">
+        <source>Email address of the sender</source>
+      <target state="translated">E-Mailadresse des Senders</target><alt-trans xml:space="preserve" origin="hugoist"><target>E-Mailadresse des Senders</target></alt-trans></trans-unit>
+      <trans-unit id="postprocessor_mail" xml:space="preserve" approved="yes">
+        <source>Send email</source>
+      <target state="translated">E-Mail senden</target><alt-trans xml:space="preserve" origin="hugoist"><target>E-Mail senden</target></alt-trans></trans-unit>
+      <trans-unit id="prefix_prefix" xml:space="preserve" approved="yes">
+        <source>Prefix</source>
+      <target state="translated">Präfix</target><alt-trans xml:space="preserve" origin="hugoist"><target>Präfix</target></alt-trans></trans-unit>
+      <trans-unit id="elements_dummy_title" xml:space="preserve">
+        <source>You haven't added any elements yet!</source>
+      <target/><alt-trans xml:space="preserve" origin="hugoist"><target>Du hast bis jetzt keine Elemente hinzugefügt!</target></alt-trans><alt-trans xml:space="preserve" origin="piphi"><target>Bisher wurden keine Elemente hinzugefügt!</target></alt-trans></trans-unit>
+      <trans-unit id="elements_dummy_description" xml:space="preserve">
+        <source>To get started, drag an element from the left panel onto this area</source>
+      <target/><alt-trans xml:space="preserve" origin="hugoist"><target>Um zu beginnen, ziehe ein Element aus dem linken Panel auf dieses Feld</target></alt-trans></trans-unit>
+      <trans-unit id="elements_button_delete" xml:space="preserve" approved="yes">
+        <source>Delete this element</source>
+      <target state="translated">Dieses Element löschen</target><alt-trans xml:space="preserve" origin="hugoist"><target>Dieses Element löschen</target></alt-trans></trans-unit>
+      <trans-unit id="elements_button_edit" xml:space="preserve" approved="yes">
+        <source>Edit this element</source>
+      <target state="translated">Dieses Element bearbeiten</target><alt-trans xml:space="preserve" origin="hugoist"><target>Dieses Element bearbeiten</target></alt-trans></trans-unit>
+      <trans-unit id="elements_confirm_delete_title" xml:space="preserve" approved="yes">
+        <source>Delete element</source>
+      <target state="translated">Element löschen</target><alt-trans xml:space="preserve" origin="hugoist"><target>Element löschen</target></alt-trans></trans-unit>
+      <trans-unit id="elements_confirm_delete_description" xml:space="preserve">
+        <source>Are you sure you want to delete the selected element?</source>
+      <target/><alt-trans xml:space="preserve" origin="hugoist"><target>Bist du dir sicher, das du das ausgewählte Element löschen willst?</target></alt-trans></trans-unit>
+      <trans-unit id="elements_label" xml:space="preserve" approved="yes">
+        <source>Edit this label</source>
+      <target state="translated">Diese Beschriftung bearbeiten</target><alt-trans xml:space="preserve" origin="hugoist"><target>Diese Beschriftung bearbeiten</target></alt-trans></trans-unit>
+      <trans-unit id="elements_label_email" xml:space="preserve" approved="yes">
+        <source>Email</source>
+      <target state="translated">E-Mail</target><alt-trans xml:space="preserve" origin="hugoist"><target>E-Mail</target></alt-trans></trans-unit>
+      <trans-unit id="elements_label_prefix" xml:space="preserve" approved="yes">
+        <source>Prefix</source>
+      <target state="translated">Präfix</target><alt-trans xml:space="preserve" origin="hugoist"><target>Präfix</target></alt-trans></trans-unit>
+      <trans-unit id="elements_label_firstname" xml:space="preserve" approved="yes">
+        <source>First name</source>
+      <target state="translated">Vorname</target><alt-trans xml:space="preserve" origin="hugoist"><target>Vorname</target></alt-trans></trans-unit>
+      <trans-unit id="elements_label_middlename" xml:space="preserve" approved="yes">
+        <source>Middle name</source>
+      <target state="translated">Mittlerer Name</target><alt-trans xml:space="preserve" origin="hugoist"><target>Mittlerer Name</target></alt-trans><alt-trans xml:space="preserve" origin="piphi"><target>weitere Vornamen</target></alt-trans></trans-unit>
+      <trans-unit id="elements_label_lastname" xml:space="preserve" approved="yes">
+        <source>Last name</source>
+      <target state="translated">Nachname</target><alt-trans xml:space="preserve" origin="hugoist"><target>Nachname</target></alt-trans></trans-unit>
+      <trans-unit id="elements_label_suffix" xml:space="preserve" approved="yes">
+        <source>Suffix</source>
+      <target state="translated">Suffix</target><alt-trans xml:space="preserve" origin="hugoist"><target>Suffix</target></alt-trans></trans-unit>
+      <trans-unit id="elements_legend" xml:space="preserve" approved="yes">
+        <source>Edit this legend</source>
+      <target state="translated">Diese Legende bearbeiten</target><alt-trans xml:space="preserve" origin="hugoist"><target>Legende bearbeiten</target></alt-trans></trans-unit>
+      <trans-unit id="elements_legend_name" xml:space="preserve" approved="yes">
+        <source>Full name</source>
+      <target state="translated">Vollständiger Name</target><alt-trans xml:space="preserve" origin="hugoist"><target>Vollständiger Name</target></alt-trans></trans-unit>
+      <trans-unit id="elements_header_content" xml:space="preserve" approved="yes">
+        <source>Edit this header</source>
+      <target state="translated">Diese Kopfzeile bearbeiten</target><alt-trans xml:space="preserve" origin="hugoist"><target>Kopfzeile bearbeiten</target></alt-trans><alt-trans xml:space="preserve" origin="meincms"><target>Diese Kopfzeile bearbeiten</target></alt-trans></trans-unit>
+      <trans-unit id="elements_textblock_content" xml:space="preserve" approved="yes">
+        <source>Edit this textblock</source>
+      <target state="translated">Diesen Textblock bearbeiten</target><alt-trans xml:space="preserve" origin="hugoist"><target>Textblock bearbeiten</target></alt-trans><alt-trans xml:space="preserve" origin="meincms"><target>Diesen Textblock bearbeiten</target></alt-trans></trans-unit>
+      <trans-unit id="elements_option_1" xml:space="preserve" approved="yes">
+        <source>Option 1</source>
+      <target state="translated">Option 1</target><alt-trans xml:space="preserve" origin="hugoist"><target>Option 1</target></alt-trans></trans-unit>
+      <trans-unit id="elements_option_2" xml:space="preserve" approved="yes">
+        <source>Option 2</source>
+      <target state="translated">Option 2</target><alt-trans xml:space="preserve" origin="hugoist"><target>Option 2</target></alt-trans></trans-unit>
+      <trans-unit id="elements_option_3" xml:space="preserve" approved="yes">
+        <source>Option 3</source>
+      <target state="translated">Option 3</target><alt-trans xml:space="preserve" origin="hugoist"><target>Option 3</target></alt-trans></trans-unit>
+    </body>
+  </file>
+</xliff>
